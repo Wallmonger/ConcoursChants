@@ -1,5 +1,5 @@
 <?php 
-	$servername = "localhost";
+	$servername = "http://149.202.139.17/";
 	$username  = "benjaminl";            // Est ce qu'il y a vraiment besoin d'une explication?
 	$password = "benjaminl";
 	$dbname = "chant";
