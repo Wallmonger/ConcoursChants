@@ -1,0 +1,460 @@
+body {
+    background-color: #191919 !important;
+    padding: 0px;
+    margin: 0;
+    background-image: url(../CSS/video/video_fond.mp4) !important; /* Inserer une video en fond animé ou non*/
+}
+video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* CSS de Nico */
+
+
+.imgpic {
+    border-radius: 50% !important;
+    background-color: white !important;
+    margin: auto;
+}
+
+.imgpic:hover {
+    background: url(../profilPicture/uploadimg/changeicon.png) no-repeat center !important;
+    background-size: cover !important;
+    transition: 0.2s;
+}
+
+
+
+.active-link {
+    color: rgb(86, 86, 169) !important;
+}
+
+.displayapi {
+    box-shadow: 3px 3px 2px purple, -1px -1px 2px white;
+    
+    height: 60vh !important;
+    border-radius: 20px;
+    background-color: #191919;
+    /* animation: cycle 0.5s infinite;
+    transition: 2s; */
+    
+}
+
+/* @keyframes cycle {
+    0% { box-shadow: 3px 3px 2px purple, -1px -1px 2px white;}
+    25% { box-shadow: -3px 3px 3px purple, 1px 1px 3px white;}
+    50% { box-shadow: -3px -3px 3px purple, -1px 1px 3px white;}
+    75% { box-shadow: 3px 3px 3px purple, 1px 1px 3px white;}
+} */
+
+
+.displayhideupload {
+    display: block;
+    box-shadow: 2px 2px 2px red, -1px -1px 2px white;
+    background-color: #191919;
+    border-radius: 20px;
+    height: 60vh !important;
+    
+    
+
+}
+
+
+.displayhidecheque {
+    display: block;
+    box-shadow: 2px 2px 2px blue, -1px -1px 2px white;
+    border-radius: 20px;
+    background-color: #191919;
+    height: 60vh !important;
+    
+}
+
+.displayhideconfirmation {
+    display: block;
+    background-color: rgb(60, 157, 0), -1px -1px 2px white;
+}
+
+h1 {
+    color: white;
+}
+
+
+.hide-the-form {
+    animation: hide 2s forwards;
+}
+
+@keyframes hide {
+    from {transform: translateX(0px);}
+    to {transform: translateX(2000px)}
+}
+
+.reveal-the-form {
+    animation: reveal 2s forwards;
+}
+
+@keyframes reveal {
+    from {transform: translateX(2000px);}
+    to {transform: translateX(0px)}
+}
+
+.arnaque {
+    margin-left: 0 !important;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 400;
+    opacity: 1;
+    animation: arnak 1.5s ease-in-out forwards;
+
+}
+
+@keyframes arnak {
+    0% {opacity : 1; display: block; z-index: 400;}
+    90% {opacity : 1; display: block; z-index: 400;}
+    100% {opacity: 0; display: none; z-index: -50;}
+}
+
+
+.relativebox {
+    position: relative !important;
+}
+
+.absolutely {
+    position: absolute;
+    
+}
+
+
+.bannerofadmin {
+    visibility: visible;
+    animation: textmove 5s linear infinite running;
+    transition: 1s;
+    font-size: 30px !important;
+    
+}
+
+
+
+
+@keyframes textmove {
+    0% {transform: translateX(0px);}
+
+    25% {transform: translateX(25vw);}
+
+    50% {transform: translateX(50vw);}
+
+    75% {transform: translateX(75vw);}
+
+    100% {transform: translateX(100vw);}
+}
+
+.bannerofadminover {
+    visibility: visible;
+    animation: textmoveover 15s linear infinite running;
+    transition: 1s;
+    font-size: 30px !important;
+    
+}
+
+
+
+
+@keyframes textmoveover {
+    0% {transform: translateX(100vw);}
+
+    25% {transform: translateX(50vw);}
+
+    50% {transform: translateX(0vw);}
+
+    75% {transform: translateX(-50vw);}
+
+    100% {transform: translateX(-100vw);}
+}
+
+/* fin CSS de Nico */
+
+img{
+    width: 6.7vw;
+    height: 8vh;
+}
+
+div.master {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.master > nav.navbar > div.container-fluid {
+    background-color: #343638;
+    border-radius: 20px;
+    text-align: center;
+    height: 96vh;
+    align-items: flex-start !important;
+}
+
+div.master > nav.navbar > div.container-fluid > ul.navbar-nav > h2{
+    color: white !important;
+    justify-content: center !important;
+    
+}
+
+div.master >nav.navbar > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link {
+    color: #E0DDCF;
+}
+div.master > nav.navbar > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link:hover {
+    color: greenyellow;
+}
+
+div.master > div.container-nav {
+   align-items: center;
+   justify-content: flex-start;
+   margin: 0 auto;
+   z-index: 999;
+}
+
+div.master > div.container-nav > div.nav-welcome {
+    background-color: #343638;
+    height: 10vh;
+    border-radius: 20px;
+    padding-left: 20px;
+    display: flex; 
+
+    margin-bottom: 20px;   
+}
+div.master > div.container-nav > div.nav-welcome > p {
+    color: #E0DDCF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 0.8rem;
+}
+div.master > div.container-nav > div.nav-welcome > input {
+    width: 35vw;
+    height: 3.5vh;
+    border-radius: 10px;
+    margin: auto;
+}
+div.master > div.container-nav > div.nav-welcome > button.deco {
+    border-radius: 60px;
+    border: none;
+    margin: 20px 20px 20px 0;
+}
+div.master > div.container-nav > div.nav-welcome > button.deco > img {
+    width: 1.5vw;
+    height: auto;
+}
+
+div.master > div.container-nav > div.content-info {
+    display: flex;
+}
+div.master > div.container-nav > div.content-info > div.content {
+    width: 20vw;
+    background-color: #343638;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+}
+div.master > div.container-nav > div.content-info > div.content > h3 {
+    color: #E0DDCF;
+    font-size: 1rem;
+    text-align: center;
+}
+div.master > div.container-nav > div.content-info > div.content > p {
+    color: #E0DDCF;
+    font-size: 1rem;
+    text-align: center;
+}
+
+nav.navbar-mobile {
+    display: none;
+}
+
+#audioPlayer{
+    margin-top: 2vh;
+}
+
+div.container-nav > div.tableau {
+    height: auto;
+    background-color: #343638;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+
+/* ------------ PAGE "Mon compte" --------------- */
+div.master > div.container-nav > h3 {
+    color:#E0DDCF;
+}
+
+div.master > div.container-nav > div.container-infos-perso {
+    background-color: #343638;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div.master > div.container-nav > div.container-infos-perso > div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+div.master > div.container-nav > div.container-infos-perso > div.content > h4 {
+    color: #E0DDCF;
+    font-size: 1.2rem;
+}
+
+div.master > div.container-nav > div.container-infos-perso > div.content > p {
+    color: #E0DDCF;
+    font-size: 1rem;
+}
+div.master > div.container-nav > div.container-modifs-perso {
+    background-color: #343638;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+div.master > div.container-nav > div.container-modifs-perso > div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+div.master > div.container-nav > div.container-modifs-perso > div.content > h4 {
+    color: #E0DDCF;
+    font-size: 1.2rem;
+}
+
+div.master > div.container-nav > div.container-modifs-perso > div.content > p {
+    color: #E0DDCF;
+    font-size: 1rem;
+}
+
+div.master > div.container-nav > div.container-modifs-perso > div.content > button {
+    border-radius: 10px;
+    background-color: #E0DDCF;
+    border: none;
+    padding: 5px;
+}
+
+div.master > div.container-nav > div.disconnect > button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 25vw;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+div.master > div.container-nav > div.disconnect > button a{
+    text-decoration: none;
+    color:#191919;
+}
+
+/* ---------------- RESPONSIVE max 1200px --------------------------*/
+@media screen and (max-width: 1200px) {
+    div.master > nav.navbar > div.container-fluid {
+        text-align: left;
+    }
+}
+/* ------------------------ RESPONSIVE  Tablette max:1000px-------------------------- */
+@media screen and (max-width: 1000px) {
+    nav.navbar {
+        display: none;
+    }
+    div.container-nav > div.nav-welcome > button {
+        width: 6vw;
+        height: 4vh;
+        display: none;
+    }
+    div.container-nav > div.nav-welcome > button > img {
+        width: 2vw;
+        height: 6vh;
+    }
+    div.master > div.container-nav > div.content-info > div.content {
+        width: 25vw;
+    }
+    nav.navbar-mobile {
+        display: flex;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+        background-color: #343638;
+    }
+    nav.navbar-mobile > div.container-fluid {
+        height: 5vh;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center !important;
+        justify-items: center !important;
+        
+    }
+    nav.navbar-mobile > div.container-fluid > ul.navbar-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    nav.navbar-mobile > div.container-fluid > ul.navbar-nav > li.nav-item {
+        width: 25vw;
+        
+    }
+    nav.navbar-mobile > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link {
+        color:#E0DDCF;
+        position: relative;
+        top: -2vh;
+        background-color: #E0DDCF;
+        width: 15vw;
+        height: 5vh;
+        border-radius: 40px;
+        display: block;
+        margin: 0 auto;
+    }
+    nav.navbar-mobile > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link > img {
+        width: 6vw;
+        height: 4vh;
+        margin: 0 auto;
+        display: block;
+    }
+    nav.navbar-mobile > div.container-fluid > ul.navbar-nav > h2 {
+        display: none;
+    }
+}
+
+/* ----------------------- RESPONSIVE Mobile max:400px ----------------*/
+@media screen and (max-width: 400px) {
+    div.master > div.container-nav > div.content-info  {
+        flex-direction: column;
+    }
+    div.master > div.container-nav > div.content-info > div.content {
+        width: 70vw;
+        margin-bottom: 10px;
+    }
+    footer > nav.navbar-mobile > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link {
+        width: 15vw;
+    }
+    footer > nav.navbar-mobile > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link > img {
+        width: 8vw;
+        margin-top: -3px;
+    }
+
+    #lecontainer {
+        position: absolute;
+        width: 100vw !important;
+        height: 100vh   !important;
+        z-index: 400000;
+    }
+}

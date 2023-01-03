@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 75px;
+    font-family: roboto;
+    margin-top: 17vh;
+}
+
+p{
+    margin-top: 5vh;
+    margin-left: 12.5vw;
+    text-align: center;
+    color: black;
+    width:75vw;
+}
+
+footer
+{
+    text-align:center;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    font-size:18px;
+    margin: 30px auto;
+}
+
+footer a {
+    background-color:black;
+    padding: 10px 25px;
+    color:#FFF7EB;
+    border-radius: 4px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #FFF7EB;
+    color:black;
+}

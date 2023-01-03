@@ -1,0 +1,74 @@
+body {
+    background-color: #191919 !important;
+    padding: 10px;
+}
+div.master {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.container-fluid {
+    background-color: #343638;
+    border-radius: 20px;
+    text-align: center;
+    height: 95vh;
+    align-items: flex-start !important;
+}
+
+div.container-fluid > ul.navbar-nav > h2{
+    color: white !important;
+    justify-content: center !important;
+    
+}
+
+nav.navbar > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link {
+    color: #E0DDCF;
+}
+
+nav.navbar > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link:hover {
+    color: greenyellow;
+}
+
+div.container-nav {
+   align-items: center;
+}
+
+div.container-nav > div.nav-welcome {
+    background-color: #343638;
+    height: 10vh;
+    border-radius: 20px;
+}
+
+/* Mardi code  */
+
+.nav-welcome {
+    height: fit-content !important;
+    color: white;
+}
+
+.active-link {
+    color: rgb(86, 86, 169) !important;
+}
+
+.profilcontainer {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.imgpic {
+    border-radius: 50% !important;
+    background-color: white !important;
+}
+
+.imgpic:hover {
+    background: url(../profilPicture/uploadimg/changeicon.png) no-repeat center !important;
+    background-size: cover !important;
+    transition: 0.2s;
+    
+}
+
+
+.text {
+    padding-left: 2px;
+}

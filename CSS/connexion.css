@@ -1,0 +1,68 @@
+body {
+    background-color: #191919 !important;
+    background-image: url(../CSS/video/video_fond.mp4) !important; /* Inserer une video en fond animé ou non*/
+}
+video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF7EB;
+    font-size: 75px;
+    font-family: roboto;
+    margin-top: 17vh;
+    background-color: #1919190f;
+    border-radius: 10px;
+}
+
+p{
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.id input {
+    width: 40vh;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    border: #FFF7EB solid 1px;
+}
+
+.mdp input {
+    margin-top: 5vh;
+    width: 40vh;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    border: #FFF7EB solid 1px;
+}
+button {
+    margin-top: 3vh;
+    width: 12vh;
+    height: 35px;
+    background-color: #FFF7EB;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor:pointer;
+    font-family: roboto;
+}
+
+button:hover {
+    background-color: #412a1d;
+}

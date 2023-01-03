@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+button a {
+    text-decoration: none;
+    color:black;
+}
+
+img {
+    width: 240px;
+    height: 160px;
+    display: in;
+}
+
+.adresses {
+    display: flex;
+    width: 100%;
+
+}
+
+.chant {
+    margin-top: 5vh;
+}
+
+.participant {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.compte {
+    width: 25vw;
+    border: 1px solid black;
+}
+
+.document{
+    margin-top: 2vh;
+}
+
+.date {
+    margin-top: 5vh;
+}
+
+table{
+    margin-top: 5vh;
+    border: 1px solid black;
+}
+
+caption{
+    width:97vw;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 2vh;
+}
+
+th {
+    border: 1px solid black;
+    padding: 0.5vh;
+}
+
+.quantite{
+    width:15vw;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+.prix{
+    width:20vw;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+.total {
+    margin-top: 5vh;
+    display: block;
+    text-align: right;
+}
+
+footer
+{
+    margin-top: 20vh;
+    bottom: auto;
+    width:100%;
+    display:inline-block;
+}
+
+@media print {
+input, input * {
+    display: none !important;
+}
+button, button * {
+    display: none !important;
+}
+}

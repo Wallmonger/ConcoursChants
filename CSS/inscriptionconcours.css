@@ -1,0 +1,170 @@
+body {
+    background-color: #191919 !important;
+    padding: 10px;
+    
+}
+
+
+
+.nav-welcome {
+    color: white;
+}
+
+div.container-fluid > ul.navbar-nav > h2{
+    color: white !important;
+    
+    
+}
+
+nav.navbar > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link {
+    color: #E0DDCF;
+}
+
+nav.navbar > div.container-fluid > ul.navbar-nav > li.nav-item > a.nav-link:hover {
+    color: greenyellow;
+}
+
+
+
+
+
+/* Mardi code  */
+
+
+
+.active-link {
+    color: rgb(86, 86, 169) !important;
+}
+
+
+.displayapi {
+    box-shadow: 3px 3px 2px purple, -1px -1px 2px white;
+    height: 75vh !important;
+    border-radius: 20px;
+    background-color: #191919;
+    /* animation: cycle 0.5s infinite;
+    transition: 2s; */
+    
+}
+
+/* @keyframes cycle {
+    0% { box-shadow: 3px 3px 2px purple, -1px -1px 2px white;}
+    25% { box-shadow: -3px 3px 3px purple, 1px 1px 3px white;}
+    50% { box-shadow: -3px -3px 3px purple, -1px 1px 3px white;}
+    75% { box-shadow: 3px 3px 3px purple, 1px 1px 3px white;}
+} */
+
+
+.displayhideupload {
+    display: block;
+    box-shadow: 2px 2px 2px red, -1px -1px 2px white;
+    background-color: #191919;
+    border-radius: 20px;
+    height: 75vh !important;
+    
+    
+
+}
+
+
+.displayhidecheque {
+    display: block;
+    box-shadow: 2px 2px 2px blue, -1px -1px 2px white;
+    border-radius: 20px;
+    background-color: #191919;
+    height: 75vh !important;
+    
+}
+
+.displayhideconfirmation {
+    display: block;
+    background-color: rgb(60, 157, 0), -1px -1px 2px white;
+}
+
+h1 {
+    color: white;
+}
+
+
+.hide-the-form {
+    animation: hide 2s forwards;
+}
+
+@keyframes hide {
+    from {transform: translateX(0px);}
+    to {transform: translateX(2000px)}
+}
+
+.reveal-the-form {
+    animation: reveal 2s forwards;
+}
+
+@keyframes reveal {
+    from {transform: translateX(2000px);}
+    to {transform: translateX(0px)}
+}
+
+.arnaque {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 400;
+    opacity: 1;
+    animation: arnak 1.5s ease-in-out forwards;
+
+   
+}
+
+@keyframes arnak {
+    0% {opacity : 1; display: block; z-index: 400;}
+    90% {opacity : 1; display: block; z-index: 400;}
+    100% {opacity: 0; display: none; z-index: -50;}
+}
+
+
+.relativebox {
+    position: relative !important;
+}
+
+.absolutely {
+    position: absolute;
+    
+}
+
+
+.bannerofadmin {
+    visibility: hidden;
+    animation: textmove 5s linear infinite running;
+    transition: 1s;
+}
+
+@keyframes textmove {
+    0% {transform: translateX(0px);}
+
+    25% {transform: translateX(25vw);}
+
+    50% {transform: translateX(50vw);}
+
+    75% {transform: translateX(75vw);}
+
+    100% {transform: translateX(100vw);}
+}
+
+.bannerofadminover {
+    visibility: hidden;
+    animation: textmoveover 5s linear infinite running;
+    transition: 1s;
+}
+
+@keyframes textmoveover {
+    0% {transform: translateX(0px);}
+
+    25% {transform: translateX(25vw);}
+
+    50% {transform: translateX(50vw);}
+
+    75% {transform: translateX(75vw);}
+
+    100% {transform: translateX(100vw);}
+}
